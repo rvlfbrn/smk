@@ -1,0 +1,58 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700&display=swap");
+
+.poppins-100 {
+  font-family: "Poppins", sans-serif;
+  font-weight: 100;
+}
+.poppins-200 {
+  font-family: "Poppins", sans-serif;
+  font-weight: 200;
+}
+.poppins-300 {
+  font-family: "Poppins", sans-serif;
+  font-weight: 300;
+}
+body,
+.poppins-400 {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+}
+.poppins-500 {
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+}
+.poppins-600 {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+}
+.poppins-700 {
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+}
+
+.text-justify {
+  text-align: justify;
+}
+
+.text-black {
+  color: black !important;
+}
+
+.carousel-inner,
+.carousel-item {
+  height: 100vh;
+}
+
+.carousel-item {
+  background: url("../images/sekolah1.jpg") rgba(0, 0, 0, 0.6);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 100% 100%;
+  background-blend-mode: multiply;
+}
+
+@media screen and (min-width: 992px) {
+  .img-count {
+    width: 100% !important;
+  }
+}
